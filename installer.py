@@ -1,5 +1,5 @@
 print("Garuda Linux ISO Installer")
-pip install requests
+print("Please Relax While It Installs!")
 # imported the requests library
 import requests
 iso_url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220101/garuda-dr460nized-linux-zen-220101.iso/download"
@@ -17,3 +17,4 @@ with open("garuda-dr460nized-linux-zen-220101.iso",'wb') as f:
     # write the contents of the response (r.content)
     # to a new file in binary mode.
     f.write(r.content)
+print("Installed garuda-dr460nized-linux-zen-220101.iso!")
