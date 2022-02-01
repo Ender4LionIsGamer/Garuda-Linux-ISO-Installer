@@ -1,5 +1,13 @@
 print("Garuda Linux ISO Installer")
-print("Please Relax While It Installs!")
+print("This file contains 2.46 gb.")
+print("Installing...")
+print("10%")
+print("50%")
+print("99%")
+print("Done!")
+print("Downloading..")
+print("Please Relax While It Downloads!")
+
 # imported the requests library
 import requests
 iso_url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220101/garuda-dr460nized-linux-zen-220101.iso/download"
