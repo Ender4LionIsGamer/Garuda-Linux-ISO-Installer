@@ -2,8 +2,6 @@ print("Welcome To Garuda Linux ISO Downloader!")
 print("It is a simple programs (which everyone can make) in python")
 print("Made By Ender4Lion")
 print("Please follow this project on github. It would really help me!")
-
-print("Garuda KDE Dr460nized")
 print("Installing Garuda Dr460nized!")
 
 import wget
