@@ -1,28 +1,19 @@
-print("Garuda Linux ISO Installer")
-print("This file contains 2.46 gb.")
-print("Installing...")
-print("10%")
-print("50%")
-print("99%")
-print("Done!")
-print("Downloading..")
-print("Please Relax While It Downloads!")
+print("Welcome To Garuda Linux ISO Downloader!")
+print("It is a simple programs (which everyone can make) in python")
+print("Made By Ender4Lion")
+print("Please follow this project on github. It would really help me!")
 
-# imported the requests library
-import requests
-iso_url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220101/garuda-dr460nized-linux-zen-220101.iso/download"
-  
-# URL of the image to be downloaded is defined as image_url
-r = requests.get(iso_url) # create HTTP response object
-  
-# send a HTTP request to the server and save
-# the HTTP response in a response object called r
-with open("garuda-dr460nized-linux-zen-220101.iso",'wb') as f:
-  
-    # Saving received content as a png file in
-    # binary format
-  
-    # write the contents of the response (r.content)
-    # to a new file in binary mode.
-    f.write(r.content)
-print("Installed garuda-dr460nized-linux-zen-220101.iso!")
+print("Garuda KDE Dr460nized")
+print("Installing Garuda Dr460nized!")
+
+import wget
+
+a = "url"
+b = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220131/garuda-dr460nized-linux-zen-220131.iso/download"
+a = b
+
+wget.download(a, 'garuda-dr460nized-linux-zen-220131.iso');
+
+
+print("Installer Finished!")
+pause
