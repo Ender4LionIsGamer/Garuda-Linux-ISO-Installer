@@ -14,4 +14,4 @@ wget.download(a, 'garuda-dr460nized-linux-zen-220131.iso');
 
 
 print("Installer Finished!")
-pause
+
