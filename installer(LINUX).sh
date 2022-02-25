@@ -1,9 +1,0 @@
-clear
-echo Installing Please Be Patient
-pip3 install wget
-wget https://gist.github.com/Ender4LionIsGamer/bda872840383eff8ed5ecb9c0c43b9e2/archive/edba62c182d26f4c1c3a6684aa78488b36b65bd5.zip
-unzip edba62c182d26f4c1c3a6684aa78488b36b65bd5.zip
-mv bda872840383eff8ed5ecb9c0c43b9e2-edba62c182d26f4c1c3a6684aa78488b36b65bd5/installer.py installer.py
-echo Downloading..
-clear
-python3 installer.py
