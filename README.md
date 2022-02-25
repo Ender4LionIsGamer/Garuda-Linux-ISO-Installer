@@ -24,7 +24,6 @@ An easy installer for downloading Garuda Linux ISO's.
 
 [2] [Gtlab](https://gitlab.com/Ender4LionIsGamer)
 
-[3] [𝓑𝓾𝔂 𝓶𝓮 𝓪 𝓬𝓸𝓯𝓯𝓮𝓮] (htps://buymeacoffee.com/ender4lion)
 
 # Contact Me
 
