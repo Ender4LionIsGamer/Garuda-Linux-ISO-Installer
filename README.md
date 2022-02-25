@@ -27,7 +27,7 @@ An easy installer for downloading Garuda Linux ISO's.
 
 # Contact Me
 
-[1] [Gmail](ender4lion@gmail.com)
+[1] [Gmail](mailto:ender4lion@gmail.com)
 
-[2] [Yahoo](ender4lion@yahoo.com)
+[2] [Yahoo](mailto:ender4lion@yahoo.com)
 
