@@ -10,7 +10,7 @@ An easy installer for downloading Garuda Linux ISO's.
 
 [1] Download the [zip](https://github.com/Ender4LionIsGamer/Garuda-Linux-Installer/archive/refs/heads/main.zip)
 
-[2] If you're using windows run the [run.bat] and wait till finished
+[2] If you're using windows run the ```run.bat``` and wait till finished
 
 [3] If you're using linux or macos run ```pip3 install -r requirements.txt && python3 main.py```
 
