@@ -39,8 +39,7 @@ def gaurda_kde():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    shutil.move("./garuda-dr460nized-linux-zen-220131.iso", "./File-Downloaded/garuda-dr460nized-linux-zen-220131.iso")
-    print("ISO can be found at File-Downloaded")
+
 
 def garuda_gnome():
     print("\n Installing Garuda Linux GNOME")
@@ -57,8 +56,7 @@ def garuda_gnome():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    shutil.move("./garuda-gnome-linux-zen-220131.iso", "./File-Downloaded/garuda-gnome-linux-zen-220131.iso")
-    print("ISO can be found at File-Downloaded")
+
 
 
 def garuda_xfce():
@@ -76,8 +74,7 @@ def garuda_xfce():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    shutil.move("./garuda-xfce-linux-lts-220131.iso", "./File-Downloaded/garuda-xfce-linux-lts-220131.iso")
-    print("ISO can be found at File-Downloaded")
+
 
 def garuda_lxqt():
     print("\n Installing Garuda LXQT-Kwin")
@@ -95,8 +92,7 @@ def garuda_lxqt():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    shutil.move("./garuda-lxqt-kwin-linux-zen-220131.iso", "./File-Downloaded/garuda-lxqt-kwin-linux-zen-220131.iso")
-    print("ISO can be found at File-Downloaded")  
+ 
 
 def garuda_sway():
     print("\n Installing Garuda Sway")
@@ -114,8 +110,7 @@ def garuda_sway():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    shutil.move("./garuda-sway-linux-zen-220131.iso", "./File-Downloaded/garuda-sway-linux-zen-220131.iso")
-    print("ISO can be found at File-Downloaded")  
+  
 
 def garuda_qtile():
         print("\n Installing Garuda Qtile")
@@ -133,8 +128,7 @@ def garuda_qtile():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
     print("Download complete!")
-    shutil.move("./garuda-qtile-linux-zen-220131.iso", "./File-Downloaded/garuda-qtile-linux-zen-220131.iso")
-    print("ISO can be found at File-Downloaded")   
+  
   
 def garuda_i3wm():
         print("\n Installing Garuda i3WM")
@@ -152,8 +146,7 @@ def garuda_i3wm():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        shutil.move("./garuda-i3-linux-zen-220131.iso", "./File-Downloaded/garuda-i3-linux-zen-220131.iso")
-        print("ISO can be found at File-Downloaded")    
+  
 
 def garuda_bspwm():
         print("\n Installing Garuda BSPWM")
@@ -171,8 +164,7 @@ def garuda_bspwm():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        shutil.move("./garuda-bspwm-linux-zen-220131.iso", "./File-Downloaded/garuda-bspwm-linux-zen-220131.iso")
-        print("ISO can be found at File-Downloaded")    
+   
 
 def garuda_mate():
         print("\n Installing Garuda Mate")
@@ -190,8 +182,7 @@ def garuda_mate():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        shutil.move("./garuda-mate-linux-zen-220131.iso", "./File-Downloaded/garuda-mate-linux-zen-220131.iso")
-        print("ISO can be found at File-Downloaded")     
+    
 
 def garuda_cinnamon():
         print("\n Installing Garuda Cinnamon")
@@ -209,8 +200,7 @@ def garuda_cinnamon():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        shutil.move("./garuda-cinnamon-linux-zen-220131.iso", "./File-Downloaded/garuda-cinnamon-linux-zen-220131.iso")
-        print("ISO can be found at File-Downloaded")
+
     
 def garuda_barebone():
         print("\n Installing Garuda Barebone")
@@ -228,8 +218,7 @@ def garuda_barebone():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        shutil.move("./garuda-kde-barebones-linux-lts-220131.iso", "./File-Downloaded/garuda-kde-barebones-linux-lts-220131.iso")
-        print("ISO can be found at File-Downloaded")
+
 
 def garuda_kdegit():
         print("\n Installing Garuda Kde-Git")
@@ -247,9 +236,6 @@ def garuda_kdegit():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        shutil.move("./garuda-kde-git-linux-zen-220101.iso", "./File-Downloaded/garuda-kde-git-linux-zen-220101.iso")
-        print("ISO can be found at File-Downloaded")
-
 
 
 Option = namedtuple("Option", ["label", "fn"])
