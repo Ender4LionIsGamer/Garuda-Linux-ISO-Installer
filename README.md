@@ -32,3 +32,8 @@ An easy installer for downloading Garuda Linux ISO's.
 
 [2] [Yahoo](mailto:ender4lion@yahoo.com)
 
+
+
+# UNDER MAINTANENCE
+
+An issue has been report. I will fix this ASAP
