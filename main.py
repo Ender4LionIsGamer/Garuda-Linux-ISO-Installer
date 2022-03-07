@@ -65,7 +65,7 @@ def garuda_xfce():
     print("\n Installing Garuda Xfce")
     chunk_size = 1024
 
-    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/xfce/220131/garuda-xfce-linux-lts-220131.iso")
+    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/xfce/220131/garuda-xfce-linux-lts-220131.iso"
 
     r = requests.get(url, stream=True)
 
@@ -84,7 +84,7 @@ def garuda_lxqt():
     
     chunk_size = 1024
 
-    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/lxqt-kwin/220131/garuda-lxqt-kwin-linux-zen-220131.iso")
+    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/lxqt-kwin/220131/garuda-lxqt-kwin-linux-zen-220131.iso"
 
     r = requests.get(url, stream=True)
 
@@ -103,7 +103,7 @@ def garuda_sway():
  
     chunk_size = 1024
 
-    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/sway/220131/garuda-sway-linux-zen-220131.iso")
+    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/sway/220131/garuda-sway-linux-zen-220131.iso"
 
     r = requests.get(url, stream=True)
 
