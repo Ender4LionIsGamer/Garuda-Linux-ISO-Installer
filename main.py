@@ -3,8 +3,6 @@ from  collections import namedtuple
 from tqdm import tqdm
 import requests
 import os
-import sys
-import shutil
 
 def get_int(prompt, lo=None, hi=None):
     while True:
@@ -13,14 +11,7 @@ def get_int(prompt, lo=None, hi=None):
             if (lo is None or lo <= val) and (hi is None or val <= hi):
                 return val
         except ValueError:   # input string could not be converted to int
-            pass
-def clearConsole():
-    command = 'clear'
-    if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
-        command = 'cls'
-    os.system(command)
-
-
+            pass      
 
 def do_menu(options):
     print("Welcome to Garuda Linux Installer")
@@ -46,8 +37,8 @@ def gaurda_kde():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    os.system('chmod +x mover.sh')
-    os.system('./mover.sh')
+                                        
+                                           
 
 def garuda_gnome():
     print("\n Installing Garuda Linux GNOME")
@@ -64,8 +55,8 @@ def garuda_gnome():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    os.system('chmod +x mover.sh')
-    os.system('./mover.sh')
+                                        
+                                           
 
 
 def garuda_xfce():
@@ -83,8 +74,6 @@ def garuda_xfce():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    os.system('chmod +x mover.sh')
-    os.system('./mover.sh')
 
 def garuda_lxqt():
     print("\n Installing Garuda LXQT-Kwin")
@@ -102,8 +91,8 @@ def garuda_lxqt():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    os.system('chmod +x mover.sh')
-    os.system('./mover.sh')
+                                        
+                                           
 
 def garuda_sway():
     print("\n Installing Garuda Sway")
@@ -121,8 +110,8 @@ def garuda_sway():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
-    os.system('chmod +x mover.sh')
-    os.system('./mover.sh')  
+                                        
+                                             
 
 def garuda_qtile():
         print("\n Installing Garuda Qtile")
@@ -140,8 +129,8 @@ def garuda_qtile():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')  
+                                            
+                                                 
   
 def garuda_i3wm():
         print("\n Installing Garuda i3WM")
@@ -159,8 +148,8 @@ def garuda_i3wm():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')  
+                                            
+                                                 
 
 def garuda_bspwm():
         print("\n Installing Garuda BSPWM")
@@ -178,8 +167,8 @@ def garuda_bspwm():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')
+                                            
+                                               
 
 def garuda_mate():
         print("\n Installing Garuda Mate")
@@ -197,8 +186,8 @@ def garuda_mate():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')
+                                            
+                                               
 
 def garuda_cinnamon():
         print("\n Installing Garuda Cinnamon")
@@ -216,8 +205,8 @@ def garuda_cinnamon():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')
+                                            
+                                               
     
 def garuda_barebone():
         print("\n Installing Garuda Barebone")
@@ -235,8 +224,8 @@ def garuda_barebone():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')
+                                            
+                                               
 
 def garuda_kdegit():
         print("\n Installing Garuda Kde-Git")
@@ -254,8 +243,8 @@ def garuda_kdegit():
             for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
                         f.write(data)
         print("Download complete!")
-        os.system('chmod +x mover.sh')
-        os.system('./mover.sh')
+                                            
+                                               
 
 Option = namedtuple("Option", ["label", "fn"])
 options = [
@@ -277,8 +266,7 @@ def main():
     clearConsole()
     num = get_int("Please enter the number of iterations: ")
     for i in range(num):
-        clearConsole()
-        do_menu(options)
+           do_menu(options)
 
 if __name__=="__main__":
     main()
