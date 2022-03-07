@@ -28,7 +28,7 @@ def gaurda_kde():
     print("\nInstalling Garuda KDE Dr460nized")
     chunk_size = 1024
 
-    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220131/")
+    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220131/"
 
     r = requests.get(url, stream=True)
 
