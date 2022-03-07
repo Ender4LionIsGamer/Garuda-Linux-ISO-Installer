@@ -5,6 +5,7 @@ An easy installer for downloading Garuda Linux ISO's.
 # Requirements
 
 [1] Python 3x
+[2] Git
 
 # Intructions
 
