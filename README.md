@@ -5,6 +5,7 @@ An easy installer for downloading Garuda Linux ISO's.
 # Requirements
 
 [1] Python 3x
+
 [2] Git
 
 # Intructions
@@ -36,4 +37,4 @@ An easy installer for downloading Garuda Linux ISO's.
 
 # UNDER MAINTANENCE
 
-An issue has been report. I will fix this ASAP
+An issue has been reported. I will fix this ASAP
