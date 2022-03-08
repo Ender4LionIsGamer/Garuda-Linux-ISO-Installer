@@ -35,6 +35,3 @@ An easy installer for downloading Garuda Linux ISO's.
 
 
 
-# UNDER MAINTANENCE
-
-An issue has been reported. I will fix this ASAP
