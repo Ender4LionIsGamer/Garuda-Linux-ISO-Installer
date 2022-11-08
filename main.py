@@ -25,7 +25,7 @@ def gaurda_kde():
     print("\nInstalling Garuda KDE Dr460nized")
     chunk_size = 1024
 
-    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/220131/garuda-dr460nized-linux-zen-220131.iso"
+    url = "https://sourceforge.net/projects/garuda-linux/files/garuda/dr460nized/221019/garuda-dr460nized-linux-zen-221019.iso"
 
     r = requests.get(url, stream=True)
 
@@ -36,6 +36,7 @@ def gaurda_kde():
         for data in tqdm(iterable=r.iter_content(chunk_size=chunk_size), total=total_size / chunk_size, unit='MB'):
             f.write(data)
     print("Download complete!")
+    
 
 
 def garuda_gnome():
